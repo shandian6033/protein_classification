@@ -1,6 +1,7 @@
 """
-all proteins from one group are in ONE fasta file. with this file, create a folder having same name. In this folder,
-create a fasta file for each chain.
+Pre-process for MATLAB:
+all proteins from one group are in ONE fasta file. With this file, create a folder having same name under PATH.
+In this folder, create a fasta file for each chain.
 """
 import os
 from os import listdir
@@ -11,6 +12,11 @@ RAWDATA_PATH = 'E:\Research\protein classification\\format_fasta\\raw data\\'
 
 
 def create_folder(file):
+    """
+    Create a folder under PATH. The name of the folder is same as the file
+    :param file: (str): the name of a fasta file which contains all proteins from same group.
+    :return: (str): the full path of the new folder
+    """
     folder_name = file[:file.find('.')]
     folder_path = PATH + folder_name
     if not os.path.exists(folder_path):
@@ -28,6 +34,11 @@ def create_folder(file):
 
 
 def create_RCSB_fastas(file):
+    """
+    Read a fasta file from www.rcsb.org. Create a fasta file for each chain in the original file under RAWDATA_PATH
+    :param file: (str): the name of a fasta file which contains all proteins from same group.
+    :return: null
+    """
     folder_path = create_folder(file)
     filepath = RAWDATA_PATH + file
     with open(filepath, 'r') as raw_file:
@@ -67,6 +78,11 @@ def create_RCSB_fastas(file):
 
 
 def create_UniProb_fastas(file):
+    """
+    Read a fasta file from www.uniprot.org. Create a fasta file for each chain in the original file under RAWDATA_PATH
+    :param file: (str): the name of a fasta file which contains all proteins from same group.
+    :return: null
+    """
     folder_path = create_folder(file)
     filepath = RAWDATA_PATH + file
     with open(filepath, 'r') as raw_file:
@@ -84,6 +100,10 @@ def create_UniProb_fastas(file):
 
 
 def main():
+    """
+    Under RAWDATA_PATH, each fasta file has all proteins in one group. Run pre-process work for each group
+    :return: null
+    """
     onlyfiles = [f for f in listdir(RAWDATA_PATH) if isfile(join(RAWDATA_PATH, f))]
     for file in onlyfiles:
         create_RCSB_fastas(file)

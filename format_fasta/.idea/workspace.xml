@@ -14,11 +14,8 @@
       <file leaf-file-name="create_group.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-              <folding>
-                <element signature="e#161#170#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="409">
+              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -124,24 +121,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1464" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.22689655" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" x="530" y="184" width="877" height="513" id="Debug" order="3" type="WINDOWED" weight="0.39892185" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" x="530" y="184" width="877" height="513" id="Debug" order="3" type="WINDOWED" weight="0.39892185" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -155,11 +153,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/create_group.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_group.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-          <folding>
-            <element signature="e#161#170#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -167,9 +176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#161#170#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -177,9 +183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-          <folding>
-            <element signature="e#161#170#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -206,11 +209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-          <folding>
-            <element signature="e#161#170#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="409">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
         </state>
       </provider>
     </entry>
